@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-Hant"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>六上社會 期中考卷訂正</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--bg:#fffdf3;--fg:#1c1c28;--card:#fff;--bd:#e3dcb8;--ac:#f5b800;--bad:#e5484d;--ok:#2e9d5b;--mut:#6b6b7a}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12121c;--fg:#f2f2f7;--card:#1d1d2b;--bd:#35354a;--bad:#ff6b70;--ok:#4cc784;--mut:#a0a0b4}}
+:root[data-theme="dark"]{--bg:#12121c;--fg:#f2f2f7;--card:#1d1d2b;--bd:#35354a;--bad:#ff6b70;--ok:#4cc784;--mut:#a0a0b4}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 "Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif}
+main{max-width:720px;margin:0 auto;padding:16px}
+h1{font-size:22px;margin:4px 0}h2{font-size:15px;margin:16px 0 6px;color:var(--mut)}
+.card{background:var(--card);border:2px solid var(--bd);border-radius:16px;padding:14px;margin:12px 0}
+.g{display:flex;flex-wrap:wrap;gap:6px}
+.n{min-width:46px;padding:8px 6px;border:2px solid var(--bd);border-radius:999px;background:var(--card);color:var(--fg);font:inherit;font-size:14px;cursor:pointer}
+.n.w{background:var(--bad);border-color:var(--bad);color:#fff}.n.s{outline:3px solid var(--ac)}
+.btn{display:block;width:100%;margin-top:10px;padding:12px;border:0;border-radius:999px;background:var(--ac);color:#1c1c28;font:inherit;font-weight:700;font-size:16px;cursor:pointer}
+.btn.l{background:transparent;border:2px solid var(--bd);color:var(--fg)}
+.ans{font-weight:700;color:var(--ok);font-size:18px}.tag{font-size:12px;color:var(--mut)}
+.trk{position:relative;height:34px;margin:8px 0;display:flex;align-items:center;justify-content:space-between;padding:0 34px}
+.d{width:9px;height:9px;border-radius:50%;background:var(--ac);transition:opacity .3s}.d.e{opacity:0}
+.pm{position:absolute;left:0;top:3px;width:28px;height:28px;border-radius:50%;background:var(--ac);transition:left .5s;animation:m .4s infinite alternate}
+@keyframes m{from{clip-path:polygon(100% 20%,50% 50%,100% 80%,100% 100%,0 100%,0 0,100% 0)}to{clip-path:polygon(100% 48%,50% 50%,100% 52%,100% 100%,0 100%,0 0,100% 0)}}
+.o{display:block;width:100%;text-align:left;margin:6px 0;padding:10px;border:2px solid var(--bd);border-radius:12px;background:var(--card);color:var(--fg);font:inherit;cursor:pointer}
+.o.ok{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 20%,transparent)}.o.no{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 20%,transparent)}
+.x{margin-top:6px;color:var(--mut);font-size:14px}
+</style></head><body><main id="app"></main>
+<script>
+const S=[
+['是非題',[['✖','理','日本用日圓，美金要先換匯'],['✖','理','現金仍是法定貨幣，攤販、斷網時都需要'],['○','理','過度購買浪費資源又汙染環境'],['○','理','自備環保杯減塑又有折扣'],['✖','理','未成年可由法定代理人陪同開戶'],['✖','理','先滿足「需要」，再考慮「想要」'],['○','援','美援的奶粉、麵粉讓乳製品普及'],['○','加','加工區女工是工業外銷的功臣'],['✖','援','援助國是美國，物資是麵粉、奶粉，不是稻米'],['✖','建','高雄靠高雄港海運與政策扶植，非氣候'],['○','科','高階晶圓市占率世界第一'],['○','科','工資上漲，要靠研發創新維持競爭力']]],
+['選擇題',[['4','理','1950 是消保專線；119消防、165反詐、1999市民服務'],['2','理','分散風險：資金分散在不同工具'],['3','理','記帳→發現問題→調整支出，是良好理財'],['2','土','地主收入減少，但獲得實物債券與公司股票補償'],['2','土','要選錯誤的：農民不是免費，是分期繳地價'],['4','科','工資上漲，難與國外低價商品競爭，需產業升級'],['3','科','AI與自動化使工作型態、就業結構轉變']]],
+['題組',[['3','理','環保標章＝低污染、可回收、省資源'],['4','理','數位學生證屬電子票證'],['2','理','風險與報酬成正比'],['1','理','存郵局比放教室安全'],['2','理','設定目標＋執行儲蓄'],['2','理','已有可穿的鞋，新鞋是「想要」'],['3','土','耕者有其田：農民買下自己耕的田'],['2','土','負擔減輕、生產意願提高、生活改善'],['4','援','麵粉袋褲子來自美國的美援'],['3','援','石門水庫、西螺大橋是美援建設，今成觀光景點'],['2','建','公路、鐵路、機場源自十大建設'],['3','建','交通便利，人口與資源往北投移動'],['4','建','錯的：臺灣有很多條國道'],['2','科','護國神山製造半導體晶片'],['2','科','關注科技，同時節能、重視永續']]],
+['勾選題',[['不勾','理','存銀行賺利息是正確觀念'],['不勾','理','選適合自己的管道是對的'],['勾','理','報酬要扣掉成本，不能不看成本'],['不勾','理','高報酬高風險，是正確觀念'],['勾','理','全押股票違反分散風險'],['勾','理','為了卡牌（想要）多花錢'],['勾','理','常吃炸物有健康負擔'],['勾','理','一次性塑膠盒增加垃圾'],['不勾','理','丙又貴又低營養，不划算'],['不勾','科','徵地會衝擊農地與生態'],['不勾','科','高科技耗水電，會排擠資源'],['勾','科','廠商進駐帶來就業、人口、經濟'],['勾','科','生活機能提升'],['勾','建','石油危機＋基礎建設不足'],['不勾','建','最多的是交通建設（6項），能源僅1項'],['勾','建','核心：重工業、交通、能源'],['勾','建','資源集中都市，拉大城鄉差距'],['勾','加','女性就業，經濟地位提升'],['不勾','加','加工區是鼓勵外銷'],['勾','加','奠定 Made in Taiwan 外銷基礎'],['不勾','加','當時是勞力密集，非自動化']]],
+['排序題',[['C→A→D→B→E','建','美援西螺大橋1953→加工區1960s→十大建設1970s→新竹科學園區1980→高鐵2007']]],
+['問答題',[['依評分規準','建','立場明確(1)＋至少2項理由，如交通／觀光 vs 地質／生態(3)＋文句通順(2)']]]];
+const P=[['土','耕者有其田中，農民如何取得土地？',['政府免費贈送','分期繳交地價','向地主租','抽籤'],1,'農民分期付地價，付清才擁有'],['援','戰後美援常見的物資是？',['麵粉與奶粉','半導體晶片','電動車','高鐵車廂'],0,'美援以麵粉、奶粉、棉花為主'],['加','加工出口區主要發展什麼產業？',['勞力密集輕工業外銷','高科技晶圓','自動化機器人','重化工業'],0,'1960年代以紡織、電子組裝外銷為主'],['建','十大建設中項目最多的是？',['能源建設','交通建設','農業建設','教育建設'],1,'交通共6項，能源僅核一廠'],['科','新竹科學園區設立於何時？',['1953年','1966年','1980年','2007年'],2,'民國69年（1980）設立'],['理','已有功能正常的書包，仍想買新款，屬於？',['需要','想要','義務','儲蓄'],1,'功能已滿足，屬「想要」'],['理','「雞蛋不放同一籃」是指？',['分散風險','只買一種','不存錢','多買零食'],0,'分散風險，降低整體虧損'],['理','風險與報酬的關係通常是？',['風險高報酬低','互不相關','風險高報酬也高','風險低報酬高'],2,'風險與報酬成正比'],['科','為何推動科學園區？',['缺少農地','難與低價商品競爭，需產業升級','沒有港口','人口太少'],1,'傳統產業競爭力下降，轉向高科技'],['理','綠色標章代表商品？',['最便宜','低污染、可回收、省資源','買一送一','進口貨'],1,'環保標章＝低污染、可回收、省資源']];
+const Q=[];S.forEach(([s,a])=>a.forEach((x,i)=>Q.push({l:s+' '+(i+1),a:x[0],t:x[1],e:x[2]})));
+const TN={理:'理財與消費',土:'土地改革',援:'美援',加:'加工出口區',建:'十大建設',科:'科學園區與科技'};
+let W=new Set(),sel=-1,fx=[],fp=0,pr=[];const A=document.getElementById('app');
+function home(){let h='<h1>🟡 六上社會 期中考卷訂正</h1><p class="tag">① 點題號看答案與詳解　② 把自己錯的題目標成紅色　③ 開始逐題訂正，吃光豆豆！</p>',k=0;
+S.forEach(([s,a])=>{h+='<h2>'+s+'</h2><div class="g">';a.forEach((x,i)=>{h+=`<button class="n${W.has(k)?' w':''}${sel==k?' s':''}" onclick="pick(${k})">${i+1}</button>`;k++});h+='</div>'});
+if(sel>=0){const q=Q[sel];h+=`<div class="card"><div class="tag">${q.l}　${TN[q.t]}</div><div class="ans">答案：${q.a}</div><p>${q.e}</p><button class="btn l" onclick="tog(${sel})">${W.has(sel)?'取消標記':'標記為「我答錯了」'}</button></div>`}
+h+=`<button class="btn" onclick="start()">開始逐題訂正（已標 ${W.size} 題）</button>`;A.innerHTML=h}
+function pick(i){sel=i;home()}function tog(i){W.has(i)?W.delete(i):W.add(i);home()}
+function start(){fx=[...W].sort((a,b)=>a-b);fp=0;fx.length?fix():prac()}
+function fix(){if(fp>=fx.length)return prac();const q=Q[fx[fp]];let d='';fx.forEach((_,i)=>d+=`<span class="d${i<fp?' e':''}"></span>`);
+A.innerHTML=`<h1>🟡 逐題訂正 ${fp+1}/${fx.length}</h1><div class="trk">${d}<span class="pm" style="left:${fx.length?fp/fx.length*(100)*0.88:0}%"></span></div><div class="card"><div class="tag">${q.l}　${TN[q.t]}</div><div class="ans">正確答案：${q.a}</div><p>${q.e}</p><p class="tag">請先在考卷上用紅筆訂正，並寫下錯在哪裡。</p></div><button class="btn" onclick="fp++;fix()">✔ 我已在考卷上訂正，吃下一顆！</button><button class="btn l" onclick="home()">回題號選單</button>`}
+function prac(){const c={};fx.forEach(i=>c[Q[i].t]=(c[Q[i].t]||0)+1);pr=[...P].sort((a,b)=>(c[b[0]]||0)-(c[a[0]]||0));let ok=0,n=0;
+A.innerHTML='<h1>🎉 訂正完成！十題練習</h1><p class="tag">依你錯題較多的單元排序，先做前面的題目。</p><div id="ps"></div>'+pr.map((p,i)=>`<div class="card"><div class="tag">第${i+1}題　${TN[p[0]]}</div><b>${p[1]}</b>${p[2].map((o,j)=>`<button class="o" onclick="ans(this,${i},${j})">${'ABCD'[j]}. ${o}</button>`).join('')}<div class="x" hidden></div></div>`).join('');
+window.ans=(b,i,j)=>{const c=b.parentNode;if(c.dataset.d)return;c.dataset.d=1;const p=pr[i];n++;[...c.querySelectorAll('.o')].forEach((o,k)=>{if(k==p[3])o.classList.add('ok');else if(k==j)o.classList.add('no')});if(j==p[3])ok++;const x=c.querySelector('.x');x.hidden=false;x.textContent=(j==p[3]?'答對了！':'再想想：')+p[4];document.getElementById('ps').innerHTML=`<div class="card"><b>得分：${ok} / ${n}</b>${n==10?'　全部完成，太棒了！':''}</div>`}}
+home()
+</script></body></html>
